@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node bin/preinstall",
+    "start": "docker-compose up",
+    "stop": "docker-compose down",
+    "rimraf": "rimraf node_modules && rimraf backend/node_modules && rimraf frontend/node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreymcmahon/pean-starter.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "ng2",
+    "node"
+  ],
+  "author": "Corey Mcmahon (contact@coreymcmahon.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coreymcmahon/pean-starter/issues"
+  },
+  "homepage": "https://github.com/coreymcmahon/pean-starter#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1"
+  }
+}
